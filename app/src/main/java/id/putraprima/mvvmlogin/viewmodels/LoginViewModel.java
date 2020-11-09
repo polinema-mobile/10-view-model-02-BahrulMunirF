@@ -10,7 +10,7 @@ import id.putraprima.mvvmlogin.models.LoggedIn;
 
 public class LoginViewModel extends ViewModel {
     private String email = "fbrntnw15@gmail.com";
-    private String password = "bahrulmunir87";
+    private String password = "bahrulmunir";
     private MutableLiveData<LoggedIn> loggedInMutableLiveData = new MutableLiveData<>();
     private MutableLiveData<Boolean> loggedMutableLive = new MutableLiveData<>();
     public MutableLiveData<String> EmailAddress = new MutableLiveData<>();
